@@ -46,9 +46,9 @@ module Lisa
 		return a
 	end
 
-	global Bart
+	global bart
 	function set_bart_library(path::AbstractString)
-		global Bart = path
+		global bart = path
 		return
 	end
 	set_bart_library(expanduser("~/packages/bart/libbart.so"))
